@@ -1,5 +1,5 @@
 
-# Reddit Sentiment Analysis Toolkit By RAYNAN WUYEP
+# ReddPull - Reddit Sentiment Analysis Toolkit By RAYNAN WUYEP
 
 
 A complete pipeline for scraping Reddit posts, performing sentiment analysis, and visualizing results through an interactive dashboard.
