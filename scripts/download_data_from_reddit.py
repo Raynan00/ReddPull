@@ -23,9 +23,9 @@ class RedditDataCollector:
         """Authenticate with Reddit API"""
         try:
             reddit = praw.Reddit(
-                client_id='vgo6NOPjghh3OkLdgkk8Qw',
-                client_secret='9nH5dW38AKxhEQe57b6cU0Knae7meg',
-                user_agent='script:reddit_sentiment_analysis:v1.0 (by /u/GLI7CH_00)'
+                client_id='YOUR_CLIENT_ID',
+                client_secret='YOUR_CLIENT_SECRET',
+                user_agent='script:reddit_sentiment_analysis:v1.0 (by /u/YOUR_USERNAME)'
             )
             reddit.user.me()  # Test authentication
             logger.info("✅ Successfully authenticated with Reddit API")
